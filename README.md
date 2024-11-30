@@ -1,4 +1,4 @@
-# SameHarmonyDemos
+# HarmonyNextDemos
 
 持续更新中。。。。
 里面包含了学习鸿蒙Next技术中的一些案例代码集，具体可以Feature文件夹查看
