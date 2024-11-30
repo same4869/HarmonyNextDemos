@@ -1,0 +1,1 @@
+export { etsGeneratorPlugin } from './src/custom-plugin';

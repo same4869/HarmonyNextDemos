@@ -1,0 +1,261 @@
+{
+  "app": {
+    "signingConfigs": [
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "addressexchange",
+      "srcPath": "./feature/addressexchange",
+    },
+    {
+      "name": "utils",
+      "srcPath": "./common/utils"
+    },
+    {
+      "name": "customtabbar",
+      "srcPath": "./feature/customtabbar",
+    },
+    {
+      "name": "modalwindow",
+      "srcPath": "./feature/modalwindow"
+    },
+    {
+      "name": "barchart",
+      "srcPath": "./feature/barchart"
+    },
+    {
+      "name": "slidetohideanddisplace",
+      "srcPath": "./feature/slidetohideanddisplace"
+    },
+    {
+      "name": "functionalscenes",
+      "srcPath": "./feature/functionalscenes",
+    },
+    {
+      "name": "imageviewer",
+      "srcPath": "./feature/imageviewer"
+    },
+    {
+      "name": "eventpropagation",
+      "srcPath": "./feature/eventpropagation"
+    },
+    {
+      "name": "secondarylinkage",
+      "srcPath": "./feature/secondarylinkage"
+    },
+    {
+      "name": "pendingitems",
+      "srcPath": "./feature/pendingitems"
+    },
+    {
+      "name": "nativerawfile",
+      "srcPath": "./feature/nativerawfile"
+    },
+    {
+      "name": "gbktranscoding",
+      "srcPath": "./feature/gbktranscoding",
+    },
+    {
+      "name": "handletabs",
+      "srcPath": "./feature/handletabs",
+    },
+    {
+      "name": "akiusepractice",
+      "srcPath": "./feature/akiusepractice",
+    },
+    {
+      "name": "variablewatch",
+      "srcPath": "./feature/variablewatch",
+    },
+    {
+      "name": "photopickandsave",
+      "srcPath": "./feature/photopickandsave"
+    },
+    {
+      "name": "applicationexception",
+      "srcPath": "./feature/applicationexception",
+    },
+    {
+      "name": "fitfordarkmode",
+      "srcPath": "./feature/fitfordarkmode"
+    },
+    {
+      "name": "marquee",
+      "srcPath": "./feature/marquee"
+    },
+    {
+      "name": "pulltorefreshnews",
+      "srcPath": "./feature/pulltorefreshnews"
+    },
+    {
+      "name": "pageturninganimation",
+      "srcPath": "./feature/pageturninganimation"
+    },
+    {
+      "name": "verifycode",
+      "srcPath": "./feature/verifycode"
+    },
+    {
+      "name": "vibrateeffect",
+      "srcPath": "./feature/vibrateeffect"
+    },
+    {
+      "name": "navigationbarchange",
+      "srcPath": "./feature/navigationbarchange",
+    },
+    {
+      "name": "routermodule",
+      "srcPath": "./feature/routermodule"
+    },
+    {
+      "name": "navigationparametertransfer",
+      "srcPath": "./feature/navigationparametertransfer",
+    },
+    {
+      "name": "mediafullscreen",
+      "srcPath": "./feature/mediafullscreen",
+    },
+    {
+      "name": "imagecomment",
+      "srcPath": "./feature/imagecomment",
+    },
+    {
+      "name": "foldablescreencases",
+      "srcPath": "./feature/foldablescreencases",
+    },
+    {
+      "name": "decompressfile",
+      "srcPath": "./feature/decompressfile",
+    },
+    {
+      "name": "customview",
+      "srcPath": "./feature/customview",
+    },
+    {
+      "name": "componentstack",
+      "srcPath": "./feature/componentstack",
+    },
+    {
+      "name": "customcalendarpickerdialog",
+      "srcPath": "./feature/customcalendarpickerdialog",
+    },
+    {
+      "name": "waterripples",
+      "srcPath": "./feature/waterripples",
+    },
+    {
+      "name": "swipersmoothvariation",
+      "srcPath": "./feature/swipersmoothvariation",
+    },
+    {
+      "name": "searchcomponent",
+      "srcPath": "./feature/searchcomponent",
+    },
+    {
+      "name": "swipercomponent",
+      "srcPath": "./feature/swipercomponent",
+    },
+    {
+      "name": "citysearch",
+      "srcPath": "./feature/citysearch",
+    },
+    {
+      "name": "shortvideo",
+      "srcPath": "./feature/shortvideo",
+    },
+    {
+      "name": "pageloading",
+      "srcPath": "./feature/pageloading",
+    },
+    {
+      "name": "sidebaranimation",
+      "srcPath": "./feature/sidebaranimation",
+    },
+    {
+      "name": "lottieview",
+      "srcPath": "./feature/lottieview",
+    },
+    {
+      "name": "imagecompression",
+      "srcPath": "./feature/imagecompression",
+    },
+    {
+      "name": "paintcomponent",
+      "srcPath": "./feature/paintcomponent",
+    },
+    {
+      "name": "expandtitle",
+      "srcPath": "./feature/expandtitle",
+    },
+    {
+      "name": "listslidetohistory",
+      "srcPath": "./feature/listslidetohistory",
+    },
+    {
+      "name": "imageenableanalyzer",
+      "srcPath": "./feature/imageenableanalyzer",
+    },
+    {
+      "name": "digitalscrollanimation",
+      "srcPath": "./feature/digitalscrollanimation",
+    },
+    {
+      "name": "listitemoverflow",
+      "srcPath": "./feature/listitemoverflow",
+    },
+    {
+      "name": "webgetcameraimage",
+      "srcPath": "./feature/webgetcameraimage",
+    },
+    {
+      "name": "bigfilecopy",
+      "srcPath": "./feature/bigfilecopy",
+    },
+    {
+      "name": "bottomdrawerslidecase",
+      "srcPath": "./feature/bottomdrawerslidecase",
+    },
+    {
+      "name": "chinesetopinyin",
+      "srcPath": "./feature/chinesetopinyin",
+    },
+    {
+      "name": "votingcomponent",
+      "srcPath": "./feature/votingcomponent",
+    },
+    {
+      "name": "dragtoswitchpictures",
+      "srcPath": "./feature/dragtoswitchpictures",
+    }
+  ]
+}

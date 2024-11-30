@@ -1,0 +1,68 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    "arkOptions": {
+      // TODO：知识点：动态路由中使用了动态import变量表达式的能力，需要在这里配置模块名，和oh-package.json5中dependencies下面配置的模块名相同。
+      // 注意位置，是buildOption！！！！
+      "runtimeOnly": {
+        "sources": [
+        ],
+        "packages": [
+          "@same/pageturninganimation",
+          "@same/navigationparametertransfer",
+          "@same/mediafullscreen",
+          "@same/imagecomment",
+          "@same/foldablescreencases",
+          "@same/decompressfile",
+          "@same/customview",
+          "@same/componentstack",
+          "@same/customcalendarpickerdialog",
+          "@same/waterripples",
+          "@same/swipersmoothvariation",
+          "@same/swipercomponent",
+          "@same/citysearch",
+          "@same/shortvideo",
+          "@same/pageloading",
+          "@same/sidebaranimation",
+          "@same/lottieview",
+          "@same/imagecompression",
+          "@same/paintcomponent",
+          "@same/expandtitle",
+          "@same/listslidetohistory",
+          "@same/imageenableanalyzer",
+          "@same/digitalscrollanimation",
+          "@same/listitemoverflow",
+          "@same/webgetcameraimage",
+          "@same/bigfilecopy"
+        ,
+    "@same/bottomdrawerslidecase",
+    "@same/chinesetopinyin",
+    "@same/votingcomponent",
+    "@same/dragtoswitchpictures"]
+      }
+    }
+  },
+  "buildOptionSet": [
+    {
+      "name": "release",
+      "arkOptions": {
+        "obfuscation": {
+          "ruleOptions": {
+            "enable": true,
+            "files": [
+              "./obfuscation-rules.txt"
+            ]
+          }
+        }
+      }
+    },
+  ],
+  "targets": [
+    {
+      "name": "default"
+    },
+    {
+      "name": "ohosTest",
+    }
+  ]
+}
